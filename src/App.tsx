@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
 import PromotionalPopup from './components/PromotionalPopup';
+import Sabi from './components/Sabi';
 
 function App() {
   const [activeSection, setActiveSection] = useState(0);
@@ -68,6 +69,7 @@ function App() {
             </main>
             <Footer />
             <PromotionalPopup />
+            <Sabi />
             <div className="scroll-indicator">
               {[0, 1, 2, 3, 4, 5].map((index) => (
                 <div
